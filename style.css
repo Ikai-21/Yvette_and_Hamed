@@ -1,0 +1,53 @@
+/* Styles for the navbar */
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 1.2em;
+  }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }  
+  #navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #navbar li {
+    margin-bottom: 10px;
+  }
+  
+  #navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Styles for the main content */
+  #main-doc {
+    margin-left: 150px;
+    padding: 20px;
+  }
+  
+  .main-section {
+    margin-bottom: 30px;
+  }
+  
+  .main-section header {
+    margin-bottom: 10px;
+  }
+  
+  .main-section p {
+    margin-bottom: 10px;
+  }
+  
